@@ -4,7 +4,7 @@ createTestCafe('localhost',1337,1338)
 .then(testcafe => {
 	tc = testcafe;
 	const runner = testcafe.createRunner();
-	runner.src('./fixtures/*.js').browsers(['chrome'],['ie']).reporter('xunit').run()
+	runner.src('./fixtures/*.js').browsers(['chrome'],['ie'],['firefox']).reporter('xunit').run()
 	.then(failedCount=> {		
 		console.log('Failed Tests: ${failedCount}');
 		tc.close();

@@ -6,13 +6,13 @@ fixture `fixture`
 const testCases = [
     {
         name:     'user 1',
-        email:    'cvraju678@gmail.com',
-        password: '9059714333'
+        email:    'yourmailid@gmail.com',
+        password: 'password1'
     },
     {
         name:     'user 2',
-        email:    'chinnavenkatarajununi@gmail.com',
-        password: '9059714333'
+        email:    'yourmsilid2@gmail.com',
+        password: 'password2'
     }
 ];
 

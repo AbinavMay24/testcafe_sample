@@ -1,0 +1,22 @@
+{
+  "name": "Sample-Project",
+  "version": "1.0.0",
+  "description": "Sample test to run test cafe project",
+  "scripts": {
+    "baseUrl": "https://github.com/DevExpress/testcafe-reporter-json",
+    "test": "node conf.js"
+  },
+  "dependencies": {
+    "connect": "^3.4.1",
+    "serve-static": "^1.11.1",
+    "testcafe-reporter-api-reporter": "^2.0.0"
+  },
+  "devDependencies": {
+    "testcafe": "^1.0.0",
+    "testcafe-browser-provider-browserstack": "^1.8.0"
+  },
+  "reporter": {
+    "name": "xunit",
+    "output": "reports/report.xml"
+  }
+}
